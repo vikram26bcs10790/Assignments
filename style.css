@@ -1,7 +1,5 @@
 
-/* =========================
-   GENERAL STYLING
-========================= */
+
 
 * {
     box-sizing: border-box;
@@ -22,9 +20,7 @@ p {
     margin-top: 0;
 }
 
-/* =========================
-   GAME HEADER / NAVBAR
-========================= */
+
 
 .game-header {
     display: flex;
@@ -41,7 +37,7 @@ p {
     border-radius: 12px;
 }
 
-/* Game title hover animation */
+
 
 .game-header h1 {
     display: block;
@@ -59,7 +55,7 @@ p {
     color: #fde047;
 }
 
-/* Game information */
+
 
 .game-info {
     display: flex;
@@ -83,7 +79,7 @@ p {
                 border-color 0.3s ease;
 }
 
-/* Information pop-up effect */
+
 
 .game-info span:hover {
     transform: translateY(-5px) scale(1.05);
@@ -92,7 +88,7 @@ p {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Navbar buttons */
+
 
 .header-actions {
     display: flex;
@@ -120,7 +116,7 @@ p {
                 border-color 0.3s ease;
 }
 
-/* Button pop-up effect */
+
 
 .header-actions button:hover {
     background-color: #a78bfa;
@@ -132,30 +128,26 @@ p {
     border-color: #ddd6fe;
 }
 
-/* Button click effect */
+
 
 .header-actions button:active {
     transform: translateY(0) scale(0.97);
 }
 
-/* Keyboard focus */
+
 
 .header-actions button:focus-visible {
     outline: 2px solid #facc15;
     outline-offset: 4px;
 }
 
-/* =========================
-   MAIN CONTAINER
-========================= */
+
 
 .main-container {
     padding: 0 15px;
 }
 
-/* =========================
-   GAME AREA
-========================= */
+
 
 .game-area {
     display: flex;
@@ -251,9 +243,7 @@ p {
     font-weight: bold;
 }
 
-/* =========================
-   GAME PANELS
-========================= */
+
 
 .game-panels {
     display: flex;
@@ -285,9 +275,7 @@ p {
     font-size: 14px;
 }
 
-/* =========================
-   CONTROLS PANEL
-========================= */
+
 
 .controls {
     display: flex;
@@ -353,9 +341,7 @@ p {
     box-shadow: 0 6px 14px rgba(34, 197, 94, 0.3);
 }
 
-/* =========================
-   INVENTORY PANEL
-========================= */
+
 
 .inventory {
     display: flex;
@@ -393,9 +379,7 @@ p {
     border-color: #a78bfa;
 }
 
-/* =========================
-   QUEST PANEL
-========================= */
+
 
 .quest {
     display: flex;
@@ -439,9 +423,7 @@ p {
     font-weight: bold;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 
 .game-footer {
     display: flex;
@@ -465,9 +447,7 @@ p {
     margin: 0;
 }
 
-/* =========================
-   TABLET AND MOBILE
-========================= */
+
 
 @media (max-width: 768px) {
     .game-header {
@@ -508,9 +488,6 @@ p {
     }
 }
 
-/* =========================
-   SMALL MOBILE SCREENS
-========================= */
 
 @media (max-width: 375px) {
     .game-header h1 {
@@ -549,7 +526,7 @@ p {
     }
 }
 
-/* Respect reduced-motion preferences */
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
